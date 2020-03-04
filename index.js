@@ -4,7 +4,6 @@ const { config } = require("dotenv");
 
 const fs = require("fs");
 
-const bot = new Discord.Client();
 
 
 const client = new Client({
@@ -105,4 +104,4 @@ client.on("message", async message => {
 
 
 
-bot.login(process.env.TOKEN);
+client.login(process.env.TOKEN);
