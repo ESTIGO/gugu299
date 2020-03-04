@@ -4,7 +4,7 @@ const { config } = require("dotenv");
 
 const fs = require("fs");
 
-const bot = new Discord.Client
+const bot = new Discord.Client();
 
 
 const client = new Client({
