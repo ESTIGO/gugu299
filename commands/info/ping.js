@@ -14,7 +14,8 @@ module.exports = {
 
         Latency is ${Math.floor(msg.createdTimestamp - message.createdTimestamp)}ms
 
-        API Latency is ${Math.round(client.ping)}ms`);
+        API Latency is ${Math.round(client.ping)}ms
+https://media.giphy.com/media/Z2pZfL0YPC9sk/giphy.gif`);
 
     }
 
